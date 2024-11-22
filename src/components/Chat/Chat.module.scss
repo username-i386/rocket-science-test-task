@@ -1,0 +1,86 @@
+.title {
+    font-size: 29px;
+    line-height: 35px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.root {
+    width: 415px;
+}
+
+.header {
+    padding: 27px 20px 27px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+
+.username {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.job_title {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    color: var(--color-tomato);
+}
+
+.rating {
+    display: flex;
+    gap: 3px;
+}
+
+.messages {
+    padding: 0 31px 0 26px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    height: 496px;
+    overflow-y: auto;
+    scrollbar-color: var(--color-tomato) white;
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+        max-width: 3px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: white;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: var(--color-tomato);
+    }
+
+    ::-webkit-scrollbar-button {
+        display: none;
+    }
+}
+
+.footer {
+    padding: 30px 19px 30px 26px;
+    display: flex;
+    justify-content: space-between;
+    gap: 19px;
+    align-items: center;
+}
+
+.input {
+    flex-grow: 1;
+    padding: 14px 30px 16px 24px;
+    font-size: 15px;
+
+    &::placeholder {
+        color: var(--color-gray-light);
+    }
+}

@@ -1,0 +1,21 @@
+.root {
+    display: flex;
+    gap: 19px;
+}
+
+.avatar {
+    flex-shrink: 0;
+}
+
+.message {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.time {
+    font-family: var(--font-secondary);
+    color: var(--color-gray);
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+}
